@@ -14,6 +14,12 @@
 		DCC803642D127C4500EE943D /* Cook_BookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC803632D127C4500EE943D /* Cook_BookTests.swift */; };
 		DCC8036E2D127C4500EE943D /* Cook_BookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC8036D2D127C4500EE943D /* Cook_BookUITests.swift */; };
 		DCC803702D127C4500EE943D /* Cook_BookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC8036F2D127C4500EE943D /* Cook_BookUITestsLaunchTests.swift */; };
+		DCC8037D2D1283CB00EE943D /* CookBooksListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC8037C2D1283CB00EE943D /* CookBooksListView.swift */; };
+		DCC8037F2D12856500EE943D /* CookBooksList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC8037E2D12856500EE943D /* CookBooksList.swift */; };
+		DCC803812D1285CC00EE943D /* CookBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC803802D1285CC00EE943D /* CookBook.swift */; };
+		DCC803832D12865000EE943D /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC803822D12865000EE943D /* Recipe.swift */; };
+		DCC803852D12869000EE943D /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC803842D12869000EE943D /* Ingredient.swift */; };
+		DCC803872D131D5700EE943D /* CreateCookBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC803862D131D5700EE943D /* CreateCookBookView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		DCC803692D127C4500EE943D /* Cook BookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cook BookUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCC8036D2D127C4500EE943D /* Cook_BookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cook_BookUITests.swift; sourceTree = "<group>"; };
 		DCC8036F2D127C4500EE943D /* Cook_BookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cook_BookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DCC8037C2D1283CB00EE943D /* CookBooksListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookBooksListView.swift; sourceTree = "<group>"; };
+		DCC8037E2D12856500EE943D /* CookBooksList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookBooksList.swift; sourceTree = "<group>"; };
+		DCC803802D1285CC00EE943D /* CookBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookBook.swift; sourceTree = "<group>"; };
+		DCC803822D12865000EE943D /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		DCC803842D12869000EE943D /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		DCC803862D131D5700EE943D /* CreateCookBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCookBookView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +110,12 @@
 				DCC803542D127C4200EE943D /* ContentView.swift */,
 				DCC803562D127C4400EE943D /* Assets.xcassets */,
 				DCC803582D127C4400EE943D /* Preview Content */,
+				DCC8037C2D1283CB00EE943D /* CookBooksListView.swift */,
+				DCC8037E2D12856500EE943D /* CookBooksList.swift */,
+				DCC803802D1285CC00EE943D /* CookBook.swift */,
+				DCC803822D12865000EE943D /* Recipe.swift */,
+				DCC803842D12869000EE943D /* Ingredient.swift */,
+				DCC803862D131D5700EE943D /* CreateCookBookView.swift */,
 			);
 			path = "Cook Book";
 			sourceTree = "<group>";
@@ -257,8 +275,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCC8037F2D12856500EE943D /* CookBooksList.swift in Sources */,
+				DCC803872D131D5700EE943D /* CreateCookBookView.swift in Sources */,
 				DCC803552D127C4200EE943D /* ContentView.swift in Sources */,
+				DCC803852D12869000EE943D /* Ingredient.swift in Sources */,
 				DCC803532D127C4200EE943D /* Cook_BookApp.swift in Sources */,
+				DCC803832D12865000EE943D /* Recipe.swift in Sources */,
+				DCC803812D1285CC00EE943D /* CookBook.swift in Sources */,
+				DCC8037D2D1283CB00EE943D /* CookBooksListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
