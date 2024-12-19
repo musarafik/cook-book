@@ -18,7 +18,9 @@ struct CookBooksListView: View {
         }
         
         List(cookBooksViewModel._cookBooks, id: \.self) { cookBook in
-          Text(cookBook._name)
+          NavigationLink(destination: CookBookView()) {
+            Text(cookBook._name)
+          }
         }
       }
     }
