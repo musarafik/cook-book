@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct CreateCookBookView: View {
-  @Binding public var cookBooksViewModel: CookBooksViewModel
+  @Environment(CookBookStore.self) private var cookBookStore
   @State private var nameInput: String = ""
   @Environment(\.dismiss) private var dismiss
   
@@ -33,7 +33,7 @@ struct CreateCookBookView: View {
     // TODO need to validate user input (i.e., don't do anything if it's blank)
     let cookBook = CookBook(_name: nameInput, _recipes: [])
     
-    cookBooksViewModel.addCookBook(cookBook: cookBook)
+    cookBookStore.addCookBook(cookBook: cookBook)
     
     dismiss()
   }

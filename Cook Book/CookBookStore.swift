@@ -1,13 +1,14 @@
 //
-//  CookBooksList.swift
+//  CookBookStore.swift
 //  Cook Book
 //
-//  Created by Musa Rafik on 12/17/24.
+//  Created by Musa Rafik on 12/19/24.
 //
 
 import Foundation
 
-@Observable class CookBooksViewModel {
+@Observable
+class CookBookStore {
   var _cookBooks: [CookBook]
   
   init() {

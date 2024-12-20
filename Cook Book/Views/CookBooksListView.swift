@@ -8,19 +8,18 @@
 import SwiftUI
 
 struct CookBooksListView: View {
-  @State public var cookBooksViewModel = CookBooksViewModel()
+  @Environment(CookBookStore.self) private var cookBookStore
   
   var body: some View {
+    @Bindable var bindableCookBookStore = cookBookStore
     NavigationView {
       VStack {
-        NavigationLink(destination: CreateCookBookView(cookBooksViewModel: $cookBooksViewModel)) {
+        NavigationLink(destination: CreateCookBookView()) {
               Text("Create a CookBook")
         }
         
-        List(cookBooksViewModel._cookBooks, id: \.self) { cookBook in
-          NavigationLink(destination: CookBookView()) {
-            Text(cookBook._name)
-          }
+        List($bindableCookBookStore._cookBooks, id: \.self) { $cookBook in
+          CookBookListRowView(cookBook: $cookBook)
         }
       }
     }

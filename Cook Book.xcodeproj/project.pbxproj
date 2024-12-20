@@ -7,21 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC3FBFCD2D14C4FC008AC03A /* CookBookStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3FBFCC2D14C4FC008AC03A /* CookBookStore.swift */; };
+		DC3FBFD22D150AFD008AC03A /* CookBookListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3FBFD12D150AFD008AC03A /* CookBookListRowView.swift */; };
 		DCC803532D127C4200EE943D /* Cook_BookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC803522D127C4200EE943D /* Cook_BookApp.swift */; };
-		DCC803552D127C4200EE943D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC803542D127C4200EE943D /* ContentView.swift */; };
 		DCC803572D127C4400EE943D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC803562D127C4400EE943D /* Assets.xcassets */; };
 		DCC8035A2D127C4400EE943D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC803592D127C4400EE943D /* Preview Assets.xcassets */; };
 		DCC803642D127C4500EE943D /* Cook_BookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC803632D127C4500EE943D /* Cook_BookTests.swift */; };
 		DCC8036E2D127C4500EE943D /* Cook_BookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC8036D2D127C4500EE943D /* Cook_BookUITests.swift */; };
 		DCC803702D127C4500EE943D /* Cook_BookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC8036F2D127C4500EE943D /* Cook_BookUITestsLaunchTests.swift */; };
 		DCC8037D2D1283CB00EE943D /* CookBooksListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC8037C2D1283CB00EE943D /* CookBooksListView.swift */; };
-		DCC8037F2D12856500EE943D /* CookBooksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC8037E2D12856500EE943D /* CookBooksViewModel.swift */; };
 		DCC803812D1285CC00EE943D /* CookBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC803802D1285CC00EE943D /* CookBook.swift */; };
 		DCC803832D12865000EE943D /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC803822D12865000EE943D /* Recipe.swift */; };
 		DCC803852D12869000EE943D /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC803842D12869000EE943D /* Ingredient.swift */; };
 		DCC803872D131D5700EE943D /* CreateCookBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC803862D131D5700EE943D /* CreateCookBookView.swift */; };
 		DCC8038A2D13910600EE943D /* CookBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC803892D13910600EE943D /* CookBookView.swift */; };
-		DCC8038C2D1391B800EE943D /* CookBookViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC8038B2D1391B800EE943D /* CookBookViewModel.swift */; };
 		DCC8038E2D1392FE00EE943D /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC8038D2D1392FE00EE943D /* RecipeView.swift */; };
 		DCC803902D1395E500EE943D /* CreateRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC8038F2D1395E500EE943D /* CreateRecipeView.swift */; };
 /* End PBXBuildFile section */
@@ -44,9 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DC3FBFCC2D14C4FC008AC03A /* CookBookStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookBookStore.swift; sourceTree = "<group>"; };
+		DC3FBFD12D150AFD008AC03A /* CookBookListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookBookListRowView.swift; sourceTree = "<group>"; };
 		DCC8034F2D127C4200EE943D /* Cook Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cook Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCC803522D127C4200EE943D /* Cook_BookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cook_BookApp.swift; sourceTree = "<group>"; };
-		DCC803542D127C4200EE943D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DCC803562D127C4400EE943D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCC803592D127C4400EE943D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DCC8035F2D127C4500EE943D /* Cook BookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cook BookTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,13 +55,11 @@
 		DCC8036D2D127C4500EE943D /* Cook_BookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cook_BookUITests.swift; sourceTree = "<group>"; };
 		DCC8036F2D127C4500EE943D /* Cook_BookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cook_BookUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DCC8037C2D1283CB00EE943D /* CookBooksListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookBooksListView.swift; sourceTree = "<group>"; };
-		DCC8037E2D12856500EE943D /* CookBooksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookBooksViewModel.swift; sourceTree = "<group>"; };
 		DCC803802D1285CC00EE943D /* CookBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookBook.swift; sourceTree = "<group>"; };
 		DCC803822D12865000EE943D /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		DCC803842D12869000EE943D /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
 		DCC803862D131D5700EE943D /* CreateCookBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCookBookView.swift; sourceTree = "<group>"; };
 		DCC803892D13910600EE943D /* CookBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookBookView.swift; sourceTree = "<group>"; };
-		DCC8038B2D1391B800EE943D /* CookBookViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookBookViewModel.swift; sourceTree = "<group>"; };
 		DCC8038D2D1392FE00EE943D /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
 		DCC8038F2D1395E500EE943D /* CreateRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateRecipeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,6 +89,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DC3FBFD02D14CAEA008AC03A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DCC803802D1285CC00EE943D /* CookBook.swift */,
+				DCC803822D12865000EE943D /* Recipe.swift */,
+				DCC803842D12869000EE943D /* Ingredient.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		DCC803462D127C4200EE943D = {
 			isa = PBXGroup;
 			children = (
@@ -114,15 +122,12 @@
 		DCC803512D127C4200EE943D /* Cook Book */ = {
 			isa = PBXGroup;
 			children = (
+				DC3FBFD02D14CAEA008AC03A /* Models */,
 				DCC803882D13905700EE943D /* Views */,
 				DCC803522D127C4200EE943D /* Cook_BookApp.swift */,
 				DCC803562D127C4400EE943D /* Assets.xcassets */,
+				DC3FBFCC2D14C4FC008AC03A /* CookBookStore.swift */,
 				DCC803582D127C4400EE943D /* Preview Content */,
-				DCC8037E2D12856500EE943D /* CookBooksViewModel.swift */,
-				DCC803802D1285CC00EE943D /* CookBook.swift */,
-				DCC803822D12865000EE943D /* Recipe.swift */,
-				DCC803842D12869000EE943D /* Ingredient.swift */,
-				DCC8038B2D1391B800EE943D /* CookBookViewModel.swift */,
 			);
 			path = "Cook Book";
 			sourceTree = "<group>";
@@ -157,10 +162,10 @@
 			children = (
 				DCC803862D131D5700EE943D /* CreateCookBookView.swift */,
 				DCC8037C2D1283CB00EE943D /* CookBooksListView.swift */,
-				DCC803542D127C4200EE943D /* ContentView.swift */,
 				DCC803892D13910600EE943D /* CookBookView.swift */,
 				DCC8038D2D1392FE00EE943D /* RecipeView.swift */,
 				DCC8038F2D1395E500EE943D /* CreateRecipeView.swift */,
+				DC3FBFD12D150AFD008AC03A /* CookBookListRowView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -296,11 +301,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCC803902D1395E500EE943D /* CreateRecipeView.swift in Sources */,
-				DCC8037F2D12856500EE943D /* CookBooksViewModel.swift in Sources */,
+				DC3FBFCD2D14C4FC008AC03A /* CookBookStore.swift in Sources */,
 				DCC803872D131D5700EE943D /* CreateCookBookView.swift in Sources */,
-				DCC803552D127C4200EE943D /* ContentView.swift in Sources */,
-				DCC8038C2D1391B800EE943D /* CookBookViewModel.swift in Sources */,
 				DCC8038E2D1392FE00EE943D /* RecipeView.swift in Sources */,
+				DC3FBFD22D150AFD008AC03A /* CookBookListRowView.swift in Sources */,
 				DCC8038A2D13910600EE943D /* CookBookView.swift in Sources */,
 				DCC803852D12869000EE943D /* Ingredient.swift in Sources */,
 				DCC803532D127C4200EE943D /* Cook_BookApp.swift in Sources */,
